@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-03T14:11:53 PST" name="Default suite" finished-at="2023-01-03T14:11:59 PST" duration-ms="5294">
+    <groups>
+    </groups>
+    <test started-at="2023-01-03T14:11:53 PST" name="Default test" finished-at="2023-01-03T14:11:59 PST" duration-ms="5294">
+      <class name="TestCases.CreateEmpData">
+        <test-method signature="createEmpData()[pri:1, instance:TestCases.CreateEmpData@c267ef4]" started-at="2023-01-03T14:11:53 PST" name="createEmpData" description="testcase 2" finished-at="2023-01-03T14:11:57 PST" duration-ms="4042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createEmpData -->
+        <test-method signature="deleteEmpData()[pri:2, instance:TestCases.CreateEmpData@c267ef4]" started-at="2023-01-03T14:11:57 PST" name="deleteEmpData" description="testcase 3" finished-at="2023-01-03T14:11:58 PST" depends-on-methods="TestCases.CreateEmpData.createEmpData" duration-ms="534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteEmpData -->
+        <test-method signature="deleteDeletedEmpData()[pri:3, instance:TestCases.CreateEmpData@c267ef4]" started-at="2023-01-03T14:11:58 PST" name="deleteDeletedEmpData" description="testcase 4" finished-at="2023-01-03T14:11:58 PST" duration-ms="400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteDeletedEmpData -->
+        <test-method signature="getDetailsOfUser()[pri:4, instance:TestCases.CreateEmpData@c267ef4]" started-at="2023-01-03T14:11:58 PST" name="getDetailsOfUser" description="testcase 5" finished-at="2023-01-03T14:11:59 PST" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDetailsOfUser -->
+      </class> <!-- TestCases.CreateEmpData -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
